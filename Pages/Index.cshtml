@@ -1,0 +1,17 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Nena: 99 Luftballons</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4Gk_O3WRhSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>Learn more about <a href="https://en.wikipedia.org/wiki/99_Luftballons">this song</a>.</p>
+</div>
+<div id="launch">
+<button mx-auto type="button" class="btn btn-danger" onclick="myMove()">Launch Balloon!</button></div>
+<div id="balloonContainer">
+    
+    <img src="~/images/balloon.png" />
+</div>
